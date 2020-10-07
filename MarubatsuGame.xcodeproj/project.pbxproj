@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA357D76252E06A000CFE5E6 /* MarubatsuGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D75252E06A000CFE5E6 /* MarubatsuGameApp.swift */; };
+		AA357D78252E06A000CFE5E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D77252E06A000CFE5E6 /* ContentView.swift */; };
+		AA357D7A252E06A200CFE5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA357D79252E06A200CFE5E6 /* Assets.xcassets */; };
+		AA357D7D252E06A200CFE5E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA357D7C252E06A200CFE5E6 /* Preview Assets.xcassets */; };
+		AA357D88252E06A300CFE5E6 /* MarubatsuGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D87252E06A300CFE5E6 /* MarubatsuGameTests.swift */; };
+		AA357D93252E06A300CFE5E6 /* MarubatsuGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA357D84252E06A300CFE5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA357D6A252E06A000CFE5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA357D71252E06A000CFE5E6;
+			remoteInfo = MarubatsuGame;
+		};
+		AA357D8F252E06A300CFE5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA357D6A252E06A000CFE5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA357D71252E06A000CFE5E6;
+			remoteInfo = MarubatsuGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA357D72252E06A000CFE5E6 /* MarubatsuGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatsuGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA357D75252E06A000CFE5E6 /* MarubatsuGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuGameApp.swift; sourceTree = "<group>"; };
+		AA357D77252E06A000CFE5E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA357D79252E06A200CFE5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA357D7C252E06A200CFE5E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA357D7E252E06A200CFE5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA357D83252E06A300CFE5E6 /* MarubatsuGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatsuGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA357D87252E06A300CFE5E6 /* MarubatsuGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuGameTests.swift; sourceTree = "<group>"; };
+		AA357D89252E06A300CFE5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA357D8E252E06A300CFE5E6 /* MarubatsuGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatsuGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuGameUITests.swift; sourceTree = "<group>"; };
+		AA357D94252E06A300CFE5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA357D6F252E06A000CFE5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D80252E06A300CFE5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D8B252E06A300CFE5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA357D69252E06A000CFE5E6 = {
+			isa = PBXGroup;
+			children = (
+				AA357D74252E06A000CFE5E6 /* MarubatsuGame */,
+				AA357D86252E06A300CFE5E6 /* MarubatsuGameTests */,
+				AA357D91252E06A300CFE5E6 /* MarubatsuGameUITests */,
+				AA357D73252E06A000CFE5E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA357D73252E06A000CFE5E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA357D72252E06A000CFE5E6 /* MarubatsuGame.app */,
+				AA357D83252E06A300CFE5E6 /* MarubatsuGameTests.xctest */,
+				AA357D8E252E06A300CFE5E6 /* MarubatsuGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA357D74252E06A000CFE5E6 /* MarubatsuGame */ = {
+			isa = PBXGroup;
+			children = (
+				AA357D75252E06A000CFE5E6 /* MarubatsuGameApp.swift */,
+				AA357D77252E06A000CFE5E6 /* ContentView.swift */,
+				AA357D79252E06A200CFE5E6 /* Assets.xcassets */,
+				AA357D7E252E06A200CFE5E6 /* Info.plist */,
+				AA357D7B252E06A200CFE5E6 /* Preview Content */,
+			);
+			path = MarubatsuGame;
+			sourceTree = "<group>";
+		};
+		AA357D7B252E06A200CFE5E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA357D7C252E06A200CFE5E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA357D86252E06A300CFE5E6 /* MarubatsuGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA357D87252E06A300CFE5E6 /* MarubatsuGameTests.swift */,
+				AA357D89252E06A300CFE5E6 /* Info.plist */,
+			);
+			path = MarubatsuGameTests;
+			sourceTree = "<group>";
+		};
+		AA357D91252E06A300CFE5E6 /* MarubatsuGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */,
+				AA357D94252E06A300CFE5E6 /* Info.plist */,
+			);
+			path = MarubatsuGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA357D71252E06A000CFE5E6 /* MarubatsuGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA357D97252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGame" */;
+			buildPhases = (
+				AA357D6E252E06A000CFE5E6 /* Sources */,
+				AA357D6F252E06A000CFE5E6 /* Frameworks */,
+				AA357D70252E06A000CFE5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarubatsuGame;
+			productName = MarubatsuGame;
+			productReference = AA357D72252E06A000CFE5E6 /* MarubatsuGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA357D82252E06A300CFE5E6 /* MarubatsuGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA357D9A252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGameTests" */;
+			buildPhases = (
+				AA357D7F252E06A300CFE5E6 /* Sources */,
+				AA357D80252E06A300CFE5E6 /* Frameworks */,
+				AA357D81252E06A300CFE5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA357D85252E06A300CFE5E6 /* PBXTargetDependency */,
+			);
+			name = MarubatsuGameTests;
+			productName = MarubatsuGameTests;
+			productReference = AA357D83252E06A300CFE5E6 /* MarubatsuGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA357D8D252E06A300CFE5E6 /* MarubatsuGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA357D9D252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGameUITests" */;
+			buildPhases = (
+				AA357D8A252E06A300CFE5E6 /* Sources */,
+				AA357D8B252E06A300CFE5E6 /* Frameworks */,
+				AA357D8C252E06A300CFE5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA357D90252E06A300CFE5E6 /* PBXTargetDependency */,
+			);
+			name = MarubatsuGameUITests;
+			productName = MarubatsuGameUITests;
+			productReference = AA357D8E252E06A300CFE5E6 /* MarubatsuGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA357D6A252E06A000CFE5E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AA357D71252E06A000CFE5E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AA357D82252E06A300CFE5E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AA357D71252E06A000CFE5E6;
+					};
+					AA357D8D252E06A300CFE5E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AA357D71252E06A000CFE5E6;
+					};
+				};
+			};
+			buildConfigurationList = AA357D6D252E06A000CFE5E6 /* Build configuration list for PBXProject "MarubatsuGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA357D69252E06A000CFE5E6;
+			productRefGroup = AA357D73252E06A000CFE5E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA357D71252E06A000CFE5E6 /* MarubatsuGame */,
+				AA357D82252E06A300CFE5E6 /* MarubatsuGameTests */,
+				AA357D8D252E06A300CFE5E6 /* MarubatsuGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA357D70252E06A000CFE5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA357D7D252E06A200CFE5E6 /* Preview Assets.xcassets in Resources */,
+				AA357D7A252E06A200CFE5E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D81252E06A300CFE5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D8C252E06A300CFE5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA357D6E252E06A000CFE5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA357D78252E06A000CFE5E6 /* ContentView.swift in Sources */,
+				AA357D76252E06A000CFE5E6 /* MarubatsuGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D7F252E06A300CFE5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA357D88252E06A300CFE5E6 /* MarubatsuGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA357D8A252E06A300CFE5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA357D93252E06A300CFE5E6 /* MarubatsuGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA357D85252E06A300CFE5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA357D71252E06A000CFE5E6 /* MarubatsuGame */;
+			targetProxy = AA357D84252E06A300CFE5E6 /* PBXContainerItemProxy */;
+		};
+		AA357D90252E06A300CFE5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA357D71252E06A000CFE5E6 /* MarubatsuGame */;
+			targetProxy = AA357D8F252E06A300CFE5E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA357D95252E06A300CFE5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA357D96252E06A300CFE5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA357D98252E06A300CFE5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarubatsuGame/Preview Content\"";
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarubatsuGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA357D99252E06A300CFE5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarubatsuGame/Preview Content\"";
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarubatsuGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA357D9B252E06A300CFE5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				INFOPLIST_FILE = MarubatsuGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatsuGame.app/MarubatsuGame";
+			};
+			name = Debug;
+		};
+		AA357D9C252E06A300CFE5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				INFOPLIST_FILE = MarubatsuGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatsuGame.app/MarubatsuGame";
+			};
+			name = Release;
+		};
+		AA357D9E252E06A300CFE5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				INFOPLIST_FILE = MarubatsuGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatsuGame;
+			};
+			name = Debug;
+		};
+		AA357D9F252E06A300CFE5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A93B2TPWBT;
+				INFOPLIST_FILE = MarubatsuGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuzuki817.MarubatsuGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatsuGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA357D6D252E06A000CFE5E6 /* Build configuration list for PBXProject "MarubatsuGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA357D95252E06A300CFE5E6 /* Debug */,
+				AA357D96252E06A300CFE5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA357D97252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA357D98252E06A300CFE5E6 /* Debug */,
+				AA357D99252E06A300CFE5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA357D9A252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA357D9B252E06A300CFE5E6 /* Debug */,
+				AA357D9C252E06A300CFE5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA357D9D252E06A300CFE5E6 /* Build configuration list for PBXNativeTarget "MarubatsuGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA357D9E252E06A300CFE5E6 /* Debug */,
+				AA357D9F252E06A300CFE5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA357D6A252E06A000CFE5E6 /* Project object */;
+}
