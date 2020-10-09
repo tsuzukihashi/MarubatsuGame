@@ -14,6 +14,7 @@
 		AA357D88252E06A300CFE5E6 /* MarubatsuGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D87252E06A300CFE5E6 /* MarubatsuGameTests.swift */; };
 		AA357D93252E06A300CFE5E6 /* MarubatsuGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */; };
 		AAC50205252F77D400C78099 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50204252F77D400C78099 /* HomeView.swift */; };
+		AAC5020A253092B200C78099 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50209253092B200C78099 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuGameUITests.swift; sourceTree = "<group>"; };
 		AA357D94252E06A300CFE5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAC50204252F77D400C78099 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AAC50209253092B200C78099 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AA357D75252E06A000CFE5E6 /* MarubatsuGameApp.swift */,
 				AA357D77252E06A000CFE5E6 /* ContentView.swift */,
 				AAC50204252F77D400C78099 /* HomeView.swift */,
+				AAC50209253092B200C78099 /* HomeViewModel.swift */,
 				AA357D79252E06A200CFE5E6 /* Assets.xcassets */,
 				AA357D7E252E06A200CFE5E6 /* Info.plist */,
 				AA357D7B252E06A200CFE5E6 /* Preview Content */,
@@ -265,6 +268,7 @@
 				AAC50205252F77D400C78099 /* HomeView.swift in Sources */,
 				AA357D78252E06A000CFE5E6 /* ContentView.swift in Sources */,
 				AA357D76252E06A000CFE5E6 /* MarubatsuGameApp.swift in Sources */,
+				AAC5020A253092B200C78099 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
