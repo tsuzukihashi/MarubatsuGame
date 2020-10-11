@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State var moves: [String] = Array(repeating: "", count: 9)
-    @State var isPlaying = false
+    @StateObject private var viewModel = HomeViewModel()
+ 
     var body: some View {
         VStack {
             GeometryReader { geometry in
@@ -12,19 +12,18 @@ struct HomeView: View {
                 ) {
                     ForEach(0..<9, id: \.self) { index in
                         ZStack {
-                            Color.blue
-                            
+                            Color.orange
                             Color.white
-                                .opacity(moves[index] == "" ? 1 : 0)
-                            Text(moves[index])
+                                .opacity(viewModel.isSelected(at: index) ? 0 : 1)
+                            Text(viewModel.moves[index])
                                 .font(.largeTitle)
                                 .fontWeight(.heavy)
                                 .foregroundColor(.white)
-                                .opacity(moves[index] != "" ? 1 : 0)
+                                .opacity(viewModel.isSelected(at: index) ? 1 : 0)
                         }
                         .frame(width: geometry.size.width / 4, height: geometry.size.width / 4)
                         .rotation3DEffect(
-                            .init(degrees: moves[index] != "" ? 180 : 0),
+                            .init(degrees: viewModel.isSelected(at: index) ? 180 : 0),
                             axis: (x: 0.0, y: 1.0, z: 0.0),
                             anchor: .center,
                             anchorZ: 0.0,
@@ -33,10 +32,7 @@ struct HomeView: View {
                         .cornerRadius(16)
                         .onTapGesture(perform: {
                             withAnimation(Animation.easeIn(duration: 0.5)) {
-                                if moves[index] == "" {
-                                    moves[index] = isPlaying ? "X" : "O"
-                                    isPlaying.toggle()
-                                }
+                                viewModel.onTapGesture(at: index)
                             }
                         })
                     }

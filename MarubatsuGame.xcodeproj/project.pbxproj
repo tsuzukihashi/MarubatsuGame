@@ -15,6 +15,7 @@
 		AA357D93252E06A300CFE5E6 /* MarubatsuGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA357D92252E06A300CFE5E6 /* MarubatsuGameUITests.swift */; };
 		AAC50205252F77D400C78099 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50204252F77D400C78099 /* HomeView.swift */; };
 		AAC5020A253092B200C78099 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50209253092B200C78099 /* HomeViewModel.swift */; };
+		AAC5020F25321D7300C78099 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5020E25321D7300C78099 /* HomeViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA357D94252E06A300CFE5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAC50204252F77D400C78099 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AAC50209253092B200C78099 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AAC5020E25321D7300C78099 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				AA357D87252E06A300CFE5E6 /* MarubatsuGameTests.swift */,
+				AAC5020E25321D7300C78099 /* HomeViewModelTests.swift */,
 				AA357D89252E06A300CFE5E6 /* Info.plist */,
 			);
 			path = MarubatsuGameTests;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA357D88252E06A300CFE5E6 /* MarubatsuGameTests.swift in Sources */,
+				AAC5020F25321D7300C78099 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
