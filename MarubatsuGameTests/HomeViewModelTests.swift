@@ -41,4 +41,19 @@ class HomeViewModelTests: XCTestCase {
             XCTAssertTrue(subject.isSelected(at: 0))
         }
     }
+    
+    func test_retry() {
+        XCTContext.runActivity(named: "リトライするときリセットされること") { _ in
+            setUp()
+            subject.moves.enumerated().forEach { num, move in
+                subject.moves[num] = String(num)
+            }
+            subject.retry()
+            
+            subject.moves.forEach { move in
+                XCTAssertEqual(move, "")
+            }
+            XCTAssertTrue(subject.isPlaying)
+        }
+    }
 }

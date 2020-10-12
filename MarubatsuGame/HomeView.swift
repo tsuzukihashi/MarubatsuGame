@@ -38,6 +38,14 @@ struct HomeView: View {
                     }
                 }.padding()
             }
+        }.onChange(of: viewModel.moves) { value in
+            viewModel.checkWinner()
+        }.alert(isPresented: $viewModel.isGameOver) {
+            Alert(title: Text("終了"), message: Text(viewModel.message), dismissButton: .destructive(Text("もう一度？"), action: {
+                withAnimation(Animation.easeIn(duration: 0.5)) {
+                    viewModel.retry()
+                }
+            }))
         }
     }
 }
