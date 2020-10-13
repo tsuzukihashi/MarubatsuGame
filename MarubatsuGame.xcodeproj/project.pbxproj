@@ -16,6 +16,7 @@
 		AAC50205252F77D400C78099 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50204252F77D400C78099 /* HomeView.swift */; };
 		AAC5020A253092B200C78099 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC50209253092B200C78099 /* HomeViewModel.swift */; };
 		AAC5020F25321D7300C78099 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5020E25321D7300C78099 /* HomeViewModelTests.swift */; };
+		AAC803092535F01900F83D16 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC803082535F01900F83D16 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AAC50204252F77D400C78099 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AAC50209253092B200C78099 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AAC5020E25321D7300C78099 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		AAC803082535F01900F83D16 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				AA357D75252E06A000CFE5E6 /* MarubatsuGameApp.swift */,
 				AA357D77252E06A000CFE5E6 /* ContentView.swift */,
 				AAC50204252F77D400C78099 /* HomeView.swift */,
+				AAC803082535F01900F83D16 /* ItemCell.swift */,
 				AAC50209253092B200C78099 /* HomeViewModel.swift */,
 				AA357D79252E06A200CFE5E6 /* Assets.xcassets */,
 				AA357D7E252E06A200CFE5E6 /* Info.plist */,
@@ -272,6 +275,7 @@
 				AA357D78252E06A000CFE5E6 /* ContentView.swift in Sources */,
 				AA357D76252E06A000CFE5E6 /* MarubatsuGameApp.swift in Sources */,
 				AAC5020A253092B200C78099 /* HomeViewModel.swift in Sources */,
+				AAC803092535F01900F83D16 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
