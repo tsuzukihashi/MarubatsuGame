@@ -56,4 +56,52 @@ class HomeViewModelTests: XCTestCase {
             XCTAssertTrue(subject.isPlaying)
         }
     }
+    
+    func test_checkMoves() {
+        XCTContext.runActivity(named: "何も揃っていないとき、falseになること") { _ in
+            setUp()
+            
+            subject.moves[0] = "○"
+            subject.moves[4] = ""
+            subject.moves[7] = "○"
+            
+            XCTAssertFalse(subject.checkMoves(player: "○"))
+        }
+        XCTContext.runActivity(named: "横一列揃っているとき、trueになること") { _ in
+            setUp()
+            
+            subject.moves[0] = "○"
+            subject.moves[1] = "○"
+            subject.moves[2] = "○"
+            
+            XCTAssertTrue(subject.checkMoves(player: "○"))
+        }
+        XCTContext.runActivity(named: "縦一列揃っているとき、trueになること") { _ in
+            setUp()
+            
+            subject.moves[0] = "○"
+            subject.moves[3] = "○"
+            subject.moves[6] = "○"
+            
+            XCTAssertTrue(subject.checkMoves(player: "○"))
+        }
+        XCTContext.runActivity(named: "右斜め一列揃っているとき、trueになること") { _ in
+            setUp()
+            
+            subject.moves[2] = "○"
+            subject.moves[4] = "○"
+            subject.moves[6] = "○"
+            
+            XCTAssertTrue(subject.checkMoves(player: "○"))
+        }
+        XCTContext.runActivity(named: "左斜め一列揃っているとき、trueになること") { _ in
+            setUp()
+            
+            subject.moves[0] = "○"
+            subject.moves[4] = "○"
+            subject.moves[8] = "○"
+            
+            XCTAssertTrue(subject.checkMoves(player: "○"))
+        }
+    }
 }
