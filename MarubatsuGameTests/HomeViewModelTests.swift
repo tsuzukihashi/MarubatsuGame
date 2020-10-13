@@ -104,4 +104,42 @@ class HomeViewModelTests: XCTestCase {
             XCTAssertTrue(subject.checkMoves(player: "○"))
         }
     }
+    
+    func test_checkWinner() {
+        XCTContext.runActivity(named: "×が勝利したとき") { _ in
+            setUp()
+            
+            subject.moves[0] = "×"
+            subject.moves[4] = "×"
+            subject.moves[8] = "×"
+            
+            subject.checkWinner()
+            
+            XCTAssertEqual(subject.isGameOver, true)
+            XCTAssertEqual(subject.message, "×チームの勝ち")
+        }
+        XCTContext.runActivity(named: "○が勝利したとき") { _ in
+            setUp()
+            
+            subject.moves[0] = "○"
+            subject.moves[4] = "○"
+            subject.moves[8] = "○"
+            
+            subject.checkWinner()
+            
+            XCTAssertEqual(subject.isGameOver, true)
+            XCTAssertEqual(subject.message, "○チームの勝ち")
+        }
+        XCTContext.runActivity(named: "引き分けのとき") { _ in
+            setUp()
+            for i in 0..<9 {
+                subject.moves[i] = "test"
+            }
+            
+            subject.checkWinner()
+            
+            XCTAssertEqual(subject.isGameOver, true)
+            XCTAssertEqual(subject.message, "引き分け")
+        }
+    }
 }
