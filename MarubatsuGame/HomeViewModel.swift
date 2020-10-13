@@ -75,5 +75,4 @@ final class HomeViewModel: ObservableObject, HomeViewModelProtocol {
         moves = Array(repeating: "", count: 9)
         isPlaying = true
     }
-    
 }
